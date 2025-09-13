@@ -7,7 +7,7 @@ const HomePage = () => {
       <main className="max-w-6xl mx-auto px-6 py-12">
         <div className="mb-12 text-center">
           <h1 className="text-4xl font-light tracking-wide text-foreground mb-4">
-            Curated Minimalism
+            Curated Minimalism Welcome
           </h1>
           <p className="text-lg text-muted-foreground font-light max-w-2xl mx-auto">
             Essential pieces for modern living. Each item carefully selected for its 
