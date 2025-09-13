@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CartProvider } from "@/context/CartContext";
 import { Header } from "@/components/Header";
 import HomePage from "./pages/HomePage";
+import ProductDetailsPage from "./pages/ProductDetailsPage";
 import CartPage from "./pages/CartPage";
 import NotFound from "./pages/NotFound";
 
@@ -21,6 +22,7 @@ const App = () => (
           <Header />
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/product/:id" element={<ProductDetailsPage />} />
             <Route path="/cart" element={<CartPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
